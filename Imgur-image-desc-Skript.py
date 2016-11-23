@@ -3,7 +3,6 @@ import urllib
 import os
 import sys
 import requests
-import shutil
 
 
 
@@ -15,9 +14,8 @@ if not os.path.exists(quoradir):
 
 
 
-
-main_url = "http://imgur.com/gallery/M0MKz"
-print "Page: " + str(main_url)
+print "Paste the link from the image or gallery:"
+main_url = raw_input()
 r = requests.get(main_url)
 	
 	
