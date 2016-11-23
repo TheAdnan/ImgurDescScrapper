@@ -1,4 +1,8 @@
-# Read me m8
+# Imgur description scraper
+Python script for downloading descriptions from Imgur <br/>
+<br/>
+### Requirements
+* Install `requests` ([Installation guide](http://docs.python-requests.org/en/master/user/install/))
+* Install `BeautifulSoup ` ([Installation guide](http://stackoverflow.com/questions/19957194/install-beautiful-soup-using-pip))
 
-Install & download: https://www.python.org/download/releases/3.0/ <br />
-Upgrade pip, and install `requests` and `BeautifulSoup4`, and run in your command prompt. <br />
+#####And that's it, you can now run the script.
